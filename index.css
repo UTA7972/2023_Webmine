@@ -3,24 +3,24 @@ h1 {
 }
 
 h2 {
-	background-color : rgba(0,0,0,0);
-	width: 800px;
-	height: 74px; /*80-6*/
+	background-color : #FFF;
+	width: 802px;
+	height: 81px; /*80-6*/
 	font-size: 40px;
 	/*padding-top: 0.7rem;
 	padding-left: 2rem;
 	padding-bottom: 0.5rem;*/
-	margin-top: 5px;
-	margin-left: 4px;
-	border-bottom: 6px double #FF7467;
-  	border-left: 16px solid #FF7467;
-	color: #CD853F;
+	margin-top: 4px;
+	margin-left: 3px;
+	/*border-bottom: 6px double #FF7467;
+  	border-left: 16px solid #FF7467;*/
 }
 
 #h2_title{
 	position: relative;
 	top: 12px;
 	left: 20px;
+	color: #84a2d4;
 }
 
 h3{
