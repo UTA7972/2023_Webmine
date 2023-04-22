@@ -1,5 +1,9 @@
 h1 {
-	margin: auto;
+	background-color: #FFF;
+	width: 100%;
+	margin: 0px;
+	border-bottom: 3px solid #84a2d4;
+	height: 45px;
 }
 
 h2 {
@@ -10,7 +14,7 @@ h2 {
 	/*padding-top: 0.7rem;
 	padding-left: 2rem;
 	padding-bottom: 0.5rem;*/
-	margin-top: 4px;
+	margin-top: 30px;
 	margin-left: 3px;
 	/*border-bottom: 6px double #FF7467;
   	border-left: 16px solid #FF7467;*/
@@ -62,22 +66,25 @@ img{
 	height: auto;
 }
 
-header{
-	background-color:#FFF;
-	padding:auto;
-	margin:auto;
-}
-
 body{
   /* 方眼紙模様に必須のスタイル */
-  	background-image: linear-gradient(0deg, transparent calc(100% - 1px), #a0a0a0 calc(100% - 1px)),
-    	              linear-gradient(90deg, transparent calc(100% - 1px), #a0a0a0 calc(100% - 1px));
+  	background-image: linear-gradient(0deg, transparent calc(100% - 1px), #84a2d4 calc(100% - 1px)),
+    	              linear-gradient(90deg, transparent calc(100% - 1px), #84a2d4 calc(100% - 1px));
   	background-size: 16px 16px;
   	background-repeat: repeat;
   	background-position: left left;
 
   	/* 以下任意のスタイル */
-  	padding: 20px;
+	margin: 0px;
+	padding: 0px;
+	width: 960px;
+}
+
+#head_root{
+	height: 61px;
+	background-color:#FFF;
+	border-bottom: 3px solid #84a2d4;
+	width: 100%;
 }
 
 p{
