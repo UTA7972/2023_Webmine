@@ -102,8 +102,14 @@ body{
 }
 
 #header_middle{
+	margin-bottom: 10px;
 	border: 3px solid #000;
 	width: 640px;
+}
+.center_text{
+	text-align: center;
+	font-size: 64px;
+	font-family: Arial Black;
 }
 
 #header_right{
