@@ -85,6 +85,22 @@ body{
 	background-color:#FFF;
 	border-bottom: 3px solid #84a2d4;
 	width: 100%;
+	display: flex;
+}
+
+#header_left{
+	border: 3px solid #000;
+	width: 160px;
+}
+
+#header_middle{
+	border: 3px solid #000;
+	width: 640px;
+}
+
+#header_right{
+	border: 3px solid #000;
+	width: 160px;
 }
 
 p{
