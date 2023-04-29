@@ -89,8 +89,16 @@ body{
 }
 
 #header_left{
-	border: 3px solid #000;
 	width: 160px;
+}
+  
+#icon_image{
+	display: block;
+	margin: auto;
+	margin-top: 4px;
+	height: 90%;
+	width: auto;
+	object-fit: contain; /* アスペクト比を保持して画像を表示 */	
 }
 
 #header_middle{
