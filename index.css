@@ -8,7 +8,7 @@ h1 {
 
 h2 {
 	background-color : #FFF;
-	width: 898px;/*960-64+2*/
+	width: 866px;/*928-64+2*/
 	height: 75px; /*80+1-6*/
 	font-size: 40px;
 	/*padding-top: 0.7rem;
@@ -77,7 +77,7 @@ body{
   	/* 以下任意のスタイル */
 	margin: 0px;
 	padding: 0px;
-	width: 960px;
+	width: 928px;
 }
 
 #head_root{
@@ -90,6 +90,7 @@ body{
 
 #header_left{
 	width: 160px;
+	border-right: 3px solid #84a2d4;
 }
   
 #icon_image{
@@ -102,9 +103,7 @@ body{
 }
 
 #header_middle{
-	margin-bottom: 10px;
-	border: 3px solid #000;
-	width: 640px;
+	width: 544px;
 }
 .center_text{
 	text-align: center;
@@ -113,8 +112,18 @@ body{
 }
 
 #header_right{
-	border: 3px solid #000;
-	width: 160px;
+	width: 224px;
+}
+#note_number{
+	height: 39px;
+	border-bottom: 1px solid #84a2d4;
+	display: flex;
+	align-items: flex-end;
+}
+#Update{
+	height: 39px;
+	display: flex;
+	align-items: flex-end;
 }
 
 p{
