@@ -14,7 +14,7 @@ h2 {
 	/*padding-top: 0.7rem;
 	padding-left: 2rem;
 	padding-bottom: 0.5rem;*/
-	margin-top: 32px;
+	margin-top: 31px;
 	margin-left: 31px; /*32-1*/
 	border-bottom: 6px solid #84a2d4;
   	/*border-left: 16px solid #FF7467;*/
@@ -28,31 +28,14 @@ h2 {
 }
 
 h3{
+	background-color : #FFF;
+	padding: 0px;
+	margin-top: 50px;
+	margin-left: 50px;
+	height: 64px;
+	width: 802px;
 	font-size: 30px;
-	position: relative;
-  	border-left: 8px solid #CC704B;
-  	padding: 0.5rem 1rem;
-  	color: #000;
-}
-
-h3::before {
-position: absolute;
-left: -8px;
-bottom: 0;
-content: '';
-width: 6px;
-height: 50%;
-background-color: #614124;
-}
-
-h3::after {
-position: absolute;
-left: 0;
-bottom: 0;
-content: '';
-width: 100%;
-height: 0;
-border-bottom: 3px solid #000;
+  	border: 3px solid #84a2d4;
 }
 
 h4{
